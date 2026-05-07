@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Bardowskiego 01",
+    "code": "1B",
+    "lat": 50.04156,
+    "lon": 22.00988
+  },
+  {
+    "name": "Bł. Karoliny przedszkole 07",
+    "code": "81G",
+    "lat": 50.0439857479436,
+    "lon": 21.953926384449
+  },
+  {
+    "name": "Budziwojska / Podleśna 11",
+    "code": "54A",
+    "lat": 49.96844,
+    "lon": 21.98382
+  },
+  {
+    "name": "Cienista cmentarz 01",
+    "code": "54D",
+    "lat": 50.0416318764439,
+    "lon": 22.044912278652202
+  },
+  {
+    "name": "Cieplińskiego 01",
+    "code": "6B",
+    "lat": 50.0391814192455,
+    "lon": 21.998346447944602
+  },
+  {
+    "name": "Cieplińskiego 02",
+    "code": "5B",
+    "lat": 50.03889,
+    "lon": 21.99769
+  },
+  {
+    "name": "Dąbrowskiego / Boh. Westerplatte 08",
+    "code": "13B",
+    "lat": 50.023075056878206,
+    "lon": 21.9851419329643
+  },
+  {
+    "name": "Dąbrowskiego Instytut Muzyki 07",
+    "code": "14B",
+    "lat": 50.02364,
+    "lon": 21.98654
+  },
+  {
+    "name": "Dąbrowskiego KW Policji 03",
+    "code": "12B",
+    "lat": 50.0264783809035,
+    "lon": 21.990873813629197
+  },
+  {
+    "name": "Dworzec Główny PKP 03",
+    "code": "3B",
+    "lat": 50.04236,
+    "lon": 22.00657
+  },
+  {
+    "name": "Dworzec Lokalny",
+    "code": "DL01",
+    "lat": 50.042766193364706,
+    "lon": 21.994261443615
+  },
+  {
+    "name": "Hetmańska przychodnia 03",
+    "code": "18A",
+    "lat": 50.0291164373145,
+    "lon": 21.997117996215803
+  },
+  {
+    "name": "Kotuli / Solarza 01",
+    "code": "55G",
+    "lat": 50.04327,
+    "lon": 21.96893
+  },
+  {
+    "name": "Krakowska cmentarz 09",
+    "code": "10S",
+    "lat": 50.05722,
+    "lon": 21.9612
+  },
+  {
+    "name": "Krakowska Jedn. Wojskowa 01",
+    "code": "2S",
+    "lat": 50.0435844007753,
+    "lon": 21.9864374399185
+  },
+  {
+    "name": "Lisa-Kuli 01",
+    "code": "7B",
+    "lat": 50.03572,
+    "lon": 21.99726
+  },
+  {
+    "name": "Lubelska Os. Ogrody 09",
+    "code": "8L",
+    "lat": 50.063140000000004,
+    "lon": 22.01033
+  },
+  {
+    "name": "Lubelska szpital 01",
+    "code": "2L",
+    "lat": 50.04919,
+    "lon": 22.00049
+  },
+  {
+    "name": "Lwowska cmentarz 03",
+    "code": "6D",
+    "lat": 50.03759307719171,
+    "lon": 22.031090855598503
+  },
+  {
+    "name": "Lwowska szpital pętla 02",
+    "code": "20N",
+    "lat": 50.03669,
+    "lon": 22.036270000000002
+  },
+  {
+    "name": "Łukasiewicza pętla 08",
+    "code": "98A",
+    "lat": 50.00358,
+    "lon": 22.02938
+  },
+  {
+    "name": "Marszałkowska 01",
+    "code": "4W",
+    "lat": 50.0455790458725,
+    "lon": 21.9997224211693
+  },
+  {
+    "name": "Miła Dom Kultury 05",
+    "code": "103A",
+    "lat": 49.996186,
+    "lon": 22.004478
+  },
+  {
+    "name": "Obr. Poczty Gdańskiej pętla 08",
+    "code": "20E",
+    "lat": 50.0625129643227,
+    "lon": 21.9799089431763
+  },
+  {
+    "name": "Obr. Poczty Gdańskiej Policja 01",
+    "code": "18E",
+    "lat": 50.059523743221,
+    "lon": 21.977808773517605
+  },
+  {
+    "name": "Ofiar Katynia kładka 01",
+    "code": "24E",
+    "lat": 50.05288,
+    "lon": 21.97849
+  },
+  {
+    "name": "Okulickiego C. Handlowe 01",
+    "code": "2E",
+    "lat": 50.048590000000004,
+    "lon": 21.98661
+  },
+  {
+    "name": "Paderewskiego kościół 05",
+    "code": "58D",
+    "lat": 50.0267,
+    "lon": 22.04301
+  },
+  {
+    "name": "Piłsudskiego U. Marszałkowski 08",
+    "code": "1S",
+    "lat": 50.041779999999996,
+    "lon": 21.99786
+  },
+  {
+    "name": "Piłsudskiego U. Wojewódzki 03",
+    "code": "4C",
+    "lat": 50.0407025262049,
+    "lon": 22.000846266746503
+  },
+  {
+    "name": "Pl. Wolności 01",
+    "code": "2C",
+    "lat": 50.0396861633642,
+    "lon": 22.0089009404182
+  },
+  {
+    "name": "Pl. Wolności 04",
+    "code": "1C",
+    "lat": 50.0402318150727,
+    "lon": 22.007626220583898
+  },
+  {
+    "name": "Jasionka - Port Lotniczy",
+    "code": "LJ01",
+    "lat": 50.11482711738746,
+    "lon": 22.024621723606096
+  },
+  {
+    "name": "Powst. Warszawy / Dąbrowskiego 02",
+    "code": "21A",
+    "lat": 50.021065690098894,
+    "lon": 21.9837069511414
+  },
+  {
+    "name": "Powst. Warszawy Dom Studenta 08",
+    "code": "59A",
+    "lat": 50.019459999999995,
+    "lon": 22.00466
+  },
+  {
+    "name": "Powst. Warszawy Dom Studenta 09",
+    "code": "56A",
+    "lat": 50.019740000000006,
+    "lon": 22.00515
+  },
+  {
+    "name": "Powst. Warszawy Politechnika 01",
+    "code": "26A",
+    "lat": 50.020540000000004,
+    "lon": 21.98751
+  },
+  {
+    "name": "Powst. Warszawy stadion 06",
+    "code": "23A",
+    "lat": 50.01995,
+    "lon": 21.99605
+  },
+  {
+    "name": "Powst. Warszawy szkoła 11",
+    "code": "58A",
+    "lat": 50.0188115148196,
+    "lon": 22.0088177919388
+  },
+  {
+    "name": "Rejtana / Armii Krajowej 12",
+    "code": "83A",
+    "lat": 50.0195456844373,
+    "lon": 22.017459869384798
+  },
+  {
+    "name": "Rejtana / Kopisto 07",
+    "code": "80A",
+    "lat": 50.027609999999996,
+    "lon": 22.01657
+  },
+  {
+    "name": "Rejtana / Popiełuszki 09",
+    "code": "78A",
+    "lat": 50.0227407426766,
+    "lon": 22.0168483257294
+  },
+  {
+    "name": "Rejtana Uniwersytet 06",
+    "code": "87A",
+    "lat": 50.03021,
+    "lon": 22.01711
+  },
+  {
+    "name": "Szopena Filharmonia 02",
+    "code": "13A",
+    "lat": 50.0328535794395,
+    "lon": 22.0048427581787
+  },
+  {
+    "name": "Targowa 01",
+    "code": "11A",
+    "lat": 50.0372312999625,
+    "lon": 22.0096385478973
+  },
+  {
+    "name": "Witosa / Wyspiańskiego 06",
+    "code": "2G",
+    "lat": 50.04166,
+    "lon": 21.97896
+  },
+  {
+    "name": "Wyspiańskiego stadion 02",
+    "code": "12G",
+    "lat": 50.03914,
+    "lon": 21.98276
+  },
+  {
+    "name": "Wyzwolenia / Ofiar Katynia 07",
+    "code": "14E",
+    "lat": 50.0559126672688,
+    "lon": 21.9792973995209
+  }
+]
