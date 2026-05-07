@@ -1,0 +1,105 @@
+{
+  "busStopList": {
+    "url": "https://raw.githubusercontent.com/T3xtuRED/RzeszowGO/refs/heads/main/api/busStopList.json",
+    "type": "json",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "notes": "Lista przystanków zagnieżdżona w tablicach. Przykład z dokumentu: [[392, \"Albigowa\", [[1633, \"Albigowa I 21 nż\", \"151G\", 1, 0, \"A\", 0], ...]]]"
+  },
+
+  "timetableReal": {
+    "url": "https://einfo.erzeszow.pl/Home/GetTimetableReal?busStopId={id}",
+    "type": "xml",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/xml, text/xml, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "ASP.NET_SessionId=...; cookiesession1=...; latestsBusStopPoints=...",
+      "Referer": "https://einfo.erzeszow.pl/Home/TimeTableReal?busStopId={id}",
+      "User-Agent": "Mozilla/5.0"
+    },
+    "notes": "Zwraca XML <Schedules>. Fragment z dokumentu: <S th=\"19\" tm=\"46\" t=\"19:46\" ... />"
+  },
+
+  "ticketMachineList": {
+    "url": "https://raw.githubusercontent.com/T3xtuRED/RzeszowGO/refs/heads/main/api/ticketMachineList.json",
+    "type": "json",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "notes": "Lista biletomatów z polami name/code/lat/lon. Fragment: {\"name\": \"Bardowskiego 01\", \"code\": \"1B\", ...}"
+  },
+
+  "searchConnection": {
+    "url": "https://einfo.erzeszow.pl/Home/SearchConnection?lng1={lng1}&lat1={lat1}&lng2={lng2}&lat2={lat2}&hour={hh:mm}&date={yyyy-mm-dd}&lang=pl&c=0&transfers={n}&mode=0&carriers=&skipRoutes=&vehicleFlags=&walkMode=0",
+    "type": "xml + embedded fuckedjson",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/xml, text/xml, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "ASP.NET_SessionId=...; cookiesession1=...; latestsBusStopPoints=...",
+      "Referer": "https://einfo.erzeszow.pl/",
+      "User-Agent": "Mozilla/5.0"
+    },
+    "notes": "W XML znajduje się <json><![CDATA[ ... ]]></json> z niepoprawnym JSON-em (pojedyncze apostrofy, brak cudzysłowów). Fragment: id:'t_0', start_time:157980, ..."
+  },
+
+  "routeTracks": {
+    "url": "https://einfo.erzeszow.pl/Home/GetTracks?routeId={routeId}&ttId=0&transits=1",
+    "type": "json",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "ASP.NET_SessionId=...; cookiesession1=...",
+      "Referer": "https://einfo.erzeszow.pl/",
+      "User-Agent": "Mozilla/5.0"
+    },
+    "notes": "Zwraca tablice tras, punkty, geometrię. Fragment: [1275, \"Baligrodzka 01\", \"89G\", 21.9456, 50.04791, 0, \"\"]"
+  },
+
+  "nextDepartures": {
+    "url": "https://einfo.erzeszow.pl/Home/GetNextDepartues?busStopId={id}",
+    "type": "xml",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/xml, text/xml, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "ASP.NET_SessionId=...; cookiesession1=...",
+      "Referer": "https://einfo.erzeszow.pl/",
+      "User-Agent": "Mozilla/5.0"
+    },
+    "notes": "Zwraca <Departures>. Fragment: <D i=\"4402\" di=\"246421\" n=\"110\" t=\"72767\" r=\"0A\" ... />"
+  },
+
+  "busStopTimeTable": {
+    "url": "https://einfo.erzeszow.pl/Home/GetBusStopTimeTable?busStopId={id}&routeId={routeId}&ttId=0",
+    "type": "json",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "ASP.NET_SessionId=...; cookiesession1=...",
+      "Referer": "https://einfo.erzeszow.pl/",
+      "User-Agent": "Mozilla/5.0"
+    },
+    "notes": "Zwraca pełną tabliczkę rozkładową. Fragment: [1201, \"PS\", [[54466, 246560, 1, \"Ustrzycka\", ...]]]"
+  },
+
+  "vehiclesOnRoute": {
+    "url": "https://einfo.erzeszow.pl/Home/CNR_GetVehicles?r={route}&d=&nb=&krs=",
+    "type": "xml",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/xml, text/xml, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "ASP.NET_SessionId=...; cookiesession1=...",
+      "Referer": "https://einfo.erzeszow.pl/",
+      "User-Agent": "Mozilla/5.0"
+    },
+    "notes": "Zwraca <VL><p>[ ... ]</p></VL>. Fragment: [300, 300, \"6    \", \"C\", \"T\", 5827, 5, 499, 257, 21.97572, 50.04123, ...]"
+  }
+}
