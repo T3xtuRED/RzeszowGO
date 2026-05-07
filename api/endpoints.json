@@ -101,5 +101,18 @@
       "User-Agent": "Mozilla/5.0"
     },
     "notes": "Zwraca <VL><p>[ ... ]</p></VL>. Fragment: [300, 300, \"6    \", \"C\", \"T\", 5827, 5, 499, 257, 21.97572, 50.04123, ...]"
+  },
+
+  "busStopDetails": {
+    "url": "https://einfo.erzeszow.pl/Home/GetBusStopDetails?ttId=0&nBusStopId={id}",
+    "type": "json",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "Referer": "https://einfo.erzeszow.pl/",
+      "User-Agent": "Mozilla/5.0"
+    },
+  "notes": "Szczegóły przystanku + prawdziwe współrzędne. [id,name,code,0,lon,lat,...]"
   }
 }
